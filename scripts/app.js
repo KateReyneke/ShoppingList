@@ -1,3 +1,4 @@
+alert('Hello world');
 const addItemsBtn = document.querySelector('button:first-of-type');
 const userInput = document.getElementById('addItems');  
 
