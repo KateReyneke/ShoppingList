@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping list</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <script src="scripts/app.js" defer></script>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Shopping list</h1>
+    </header>
+
+    <section>
+        <label for="addItems">Things I need to buy:</label>
+        <input type="text" id="addItems" name="addItems">
+        <button>Add</button>
+    </section>
+
+    <section id="need-items">
+        <header>
+            <h2>Things to buy</h2>
+        </header>
+
+        <ul>
+            <li 
+            id="i1"
+             class="card" 
+            draggable="true"
+            > 
+             <h3>Milk</h3>
+             <button>Add</button>
+            </li> 
+
+            <li 
+            id="i1"
+             class="card" 
+            draggable="true"
+            > 
+             <h3>Sugar</h3>
+             <button>Add</button>
+            </li> 
+
+            <li 
+            id="i1"
+             class="card" 
+            draggable="true"
+            > 
+             <h3>Tea</h3>
+             <button>Add</button>
+            </li> 
+           
+             
+        </ul>
+
+    </section>
+    
+    <section id="have-items">
+        <header>
+            <h2>Things in my basket</h2>
+        </header>
+
+        <ul>
+            <li 
+            id="i5"
+             class="card" 
+             draggable="true"
+            >
+             <h3>Cream</h3>
+             <button>Remove</button>
+            </li> 
+          
+        </ul>
+
+    </section>
+
+</body>
+</html>
